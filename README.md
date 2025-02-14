@@ -29,7 +29,7 @@ There is no presence of your theory in the end dictionary. This becomes very app
 - **Manual** transformations (not fun)
 - Dynamic! (mostly)
 
-I think there's a reason nobody has built an entire theory dictionary in python. They are fairly primitive.
+I think there's a reason nobody has built an entire theory dictionary with python dicts. They are fairly primitive.
 
 ## Froj?
 
