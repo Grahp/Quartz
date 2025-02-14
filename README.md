@@ -96,8 +96,10 @@ Impure matching functions (such as getting the current focused application) coul
 #### ALL Rules
 
 Modeling theory rules effectively, and how they interact.
+
 This is mostly what I've been working recently.
 
 
 I'll write down more problems later but I'm tired
+
 There won't be code here for a while.
