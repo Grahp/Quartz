@@ -1,6 +1,7 @@
 # Quartz
 
 What I have after a bunch of design work.
+
 Funny how long it takes to arrive at such a seemingly obvious solution.
 
 ## Traditional Theory Realization
