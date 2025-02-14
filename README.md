@@ -7,8 +7,7 @@ Funny how long it takes to arrive at such a seemingly obvious solution.
 ## Traditional Theory Realization
 
 - Theories are **never** reified in their entirety.
-- Once you "have" a theory, you **manually** create hundreds of thousands of entries that "satisfy" that theory.
-- You then collect them into a dictionary.
+- Once you "have" a theory, you **manually** create hundreds of thousands of entries that "satisfy" that theory, and collect them into a dictionary.
 
 This leads to dictionaries that are:
 - **Static**
