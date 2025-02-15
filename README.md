@@ -63,6 +63,8 @@ Quartz goes **directly** from theory to dictionary. No "manually write a hundred
 #### Dictionary
 
 A dictionary is not necessarily a tangible thing. This idea is where theory staticness comes from, among other things.
+[**A dictionary is just a lookup function.**](https://github.com/Grahp/Steno-Glossary#dictionary).
+
 In the case of Quartz, a dictionary is just a lookup function. This lookup function takes an outline and your entire theory, and returns the translation after applying all theory rules to the outline.
 
 #### Theory Rules
@@ -76,6 +78,11 @@ Essentially, theory rules continuously modify the translation, and that's **all*
 (if you're reading this you should star the repo so I know how many people actually care)
 
 ### Problems
+
+#### Entry Application
+
+What do you give to rule application functions?
+What do rule application functions need?
 
 #### Syntactic Rules
 
