@@ -2,12 +2,11 @@
 
 What I have after a bunch of design work.
 
-Funny how long it takes to arrive at such a seemingly obvious solution.
-
 ## Traditional Theory Realization
 
-- Theories are **never** reified in their entirety.
-- Once you've designed a theory, you **manually** create hundreds of thousands of entries that "satisfy" that theory, and collect them into a dictionary.
+Theories are **never** reified in their entirety.
+
+Once you've designed a theory, you **manually** create hundreds of thousands of entries that "satisfy" that theory, and collect them into a dictionary.
 
 This leads to dictionaries that are:
 - **Static**
@@ -88,15 +87,17 @@ Syntactic rules are rules in which the order of their application matters.
 Take a rule such as "capitalize the translation if it starts with an A".
 This rule **must** come after the translation has been determined.
 
-Rule application order matters. This is seemingly fine, but I haven't found a good way to express this on the user side.
+Rule application order matters. Since theories are unordered sets of rules, some kind of rule priority will be needed.
 
 #### Greedy Rules
 
 Rules that want to match forever!
+This is probably a theory problem and not a Quartz problem.
 
 #### Impure Re-execution
 
 Impure matching functions (such as getting the current focused application) could return different results if a rule needs to backtrack.
+This is really a problem of outlines needing to be re-calculated at all.
 
 #### ALL Rules
 
@@ -104,7 +105,3 @@ Modeling theory rules effectively, and how they interact.
 
 This is mostly what I've been working recently.
 
-
-I'll write down more problems later but I'm tired
-
-There won't be code here for a while.
