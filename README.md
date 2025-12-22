@@ -1,7 +1,5 @@
 # Quartz
 
-Programmatic Steno Dictionary Generator.
+Old Programmatic Dictionary Generator.
 
-See https://grahp.dev/quartz instead.
-
-(https://giveupgithub.org)
+See https://grahp.dev/quartz as I no longer use github (https://giveupgithub.org)
